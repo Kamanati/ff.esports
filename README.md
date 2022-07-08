@@ -56,6 +56,7 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 $ git clone https://github.com/Kamanati/FF-XPHISH
 $ cd FF-XPHISH
 $ chmod +x *
+$ bash setup.sh
 $ ./main.sh (or) bash main.sh
 
 - On first launch, It'll install the dependencies and that's it. `FF-XPHISH is installed.
