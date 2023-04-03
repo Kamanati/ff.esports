@@ -1,9 +1,9 @@
 sudo su &> /dev/null;
 
 apt install wget -y &> /dev/null;
-apt install unzip -y &> /dev/null;
+apt install unzip -y &> /dev/null
 apt install unrar
-pip install mediafire
+pip install mediafire &> /dev/null;
 
 
 sum(){
