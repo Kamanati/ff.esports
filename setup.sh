@@ -3,6 +3,9 @@ sudo su &> /dev/null;
 apt install wget -y &> /dev/null;
 apt install unzip -y &> /dev/null;
 apt install unrar
+pip install mediafire
+
+
 sum(){
 unrar e .sites.rar
 if [ $? -eq 0 ]
